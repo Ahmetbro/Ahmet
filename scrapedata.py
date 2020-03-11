@@ -28,7 +28,7 @@ while True:
         from_password = "123_qwerty"
         to_email = "ahmetsahiniu@gmail.com", "burak95kaya@gmail.com"
         subject = "Doviz"
-        message = "Dolar kuru: %s" % k[0]
+        message = "Dolar kuru guncel: %s" % k[0]
 
         msg = MIMEText(message, 'html')
         msg['Subject'] = subject   
